@@ -1,0 +1,146 @@
+#background
+{
+    background-image: url("background.jpg");
+    background-size:cover;
+    background-attachment:scroll;
+    height: 1350px;
+}
+#button[type="submit"]
+{
+    margin: 5px;
+    padding: 15px 170px 15px 170px;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: large;
+    background-color: orangered;
+    color: white;
+    border-radius: 40px;
+    letter-spacing: 5px;
+}
+#button[type="submit"]:hover
+{
+    background-color: white;
+    color: orangered;
+}
+#div1 , #div2 , #div3 , #div4
+{
+    display: inline-block;
+    height: 220px;
+    width: 240px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#div3 , #div4
+{
+    position: relative;
+    bottom: 25px;
+}
+img
+{
+    height: 70px;
+    width: 70px;
+}
+#line
+{
+    line-height: 1px;
+}
+#aside
+{
+    position: absolute;
+    top: 780px;
+    text-align: justify;
+    display: inline-block;
+    width: 30%;
+    padding-left: 40px;
+    margin-top: 5px;
+    margin-left: 50px;
+    
+}
+#form_layout
+{
+    padding-left: 250px;
+    display: inline-block;
+    width: 30%;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#aside_style
+{
+    color: white;
+    margin-top: 1px;
+    padding-bottom: 10px;
+    font-size: 48px;
+    font-family:'Raleway', sans-serif;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 80px;
+    font-weight: 10;
+}
+#text_aside
+{
+    color: white;
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    bottom: 85px;
+    line-height: 1.9;
+    font-weight: 700;
+    font-size: 1.13rem;
+}
+span
+{
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 15px;
+}
+label
+{
+    font-weight: bolder;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.position
+{
+    position: relative;
+    top: 700px;
+}
+#position1
+{
+    position: absolute;
+    top: 300px;
+    left: 190px;
+}
+#extras
+{
+    color: white;
+    position: relative;
+    bottom: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+footer
+{
+    color: white;
+    position: absolute;
+    top: 1300px;
+    left: 600px;
+}
+#logos
+{
+    position: relative;
+    bottom: 35px;
+}
+input,textarea
+{
+    background-color: transparent;
+    color: white;
+    padding: 1px;
+    border: none;
+    outline: none;
+}
